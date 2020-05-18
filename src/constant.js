@@ -1,4 +1,4 @@
-export const API_ENDPOINT = "https://localhost:3001";
+export const API_ENDPOINT = "https://mazhar-api.herokuapp.com";
 
 export const IMAGE_ENDPOINT = API_ENDPOINT;
 
