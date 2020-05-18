@@ -1,0 +1,6 @@
+My skype ID: live:.cid.3fcf87120bc6b566
+
+
+open cmd
+npm install
+npm start
