@@ -1,4 +1,4 @@
-export const API_ENDPOINT = "https://boiling-refuge-94001.herokuapp.com";
+export const API_ENDPOINT = "https://localhost:3001";
 
 export const IMAGE_ENDPOINT = API_ENDPOINT;
 
