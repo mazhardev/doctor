@@ -15,17 +15,17 @@ const Footer = props => {
                             <img src={Facebook} alt="" className="footer-icon" />
                         </div>
                         <div className="footer-title">
-                            <h4>Talkspace</h4>
+                            <h4>Doctor</h4>
                         </div>
                         <div>
-                            33 W 60th Street, 8th Fl
+                            12 W 20th Street, 2th Fl
                             <br />
                             New York, NY 10023
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="footer-title">
-                            <h4>Talkspace</h4>
+                            <h4>Doctor</h4>
                         </div>
                         <div>Provider? Join Us</div>
                         <div>Careers</div>
@@ -60,10 +60,10 @@ const Footer = props => {
                         <div>Student Plan</div>
                     </div>
                     <div className="col-md-12">
-                        <div className="footer-text">
+                        {/* <div className="footer-text">
                             If you are in a life threatening situation - don’t use this site. Call +1 (800) 273-8255 or use &nbsp;
                 <span style={{ color: "#ff697a" }}>these resources</span>&nbsp; to get immediate help.
-              </div>
+              </div> */}
                     </div>
                 </div>
             </div>

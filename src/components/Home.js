@@ -18,9 +18,9 @@ const Home = props => {
           <div className="row">
             <div className="col-md-8 col-lg-6 col-xl-4">
               <div className="blue-blob">
-                <h1>Join 1 million Talkspace Users</h1>
+                <h1>Join 1 million Users</h1>
                 <h2>Feeling better starts with a single message</h2>
-                <a href="#" type="button" className="btn btn-primary green-btn">
+                <a href="/auth/login/patient" type="button" className="btn btn-primary green-btn">
                   Get started
                 </a>
               </div>
@@ -35,12 +35,12 @@ const Home = props => {
             <div className="col-lg-6 mb-4 mb-lg-0 order-lg-2">
                 <img src={therapists} alt="" className="therapists-img" />
                 <div className="half-join">
-                  <span>Are you a provider?</span>
+                  {/* <span>Are you a provider?</span>
                   <span>
-                    <a href="https://www.talkspace.com/join-as-a-therapist" target="_blank" className="green">
+                    <a href="/auth/login/patient" className="green">
                       Join Talkspace
                     </a>
-                  </span>
+                  </span> */}
                 </div>
               </div>
               <div className="col-lg-6">
@@ -72,7 +72,7 @@ const Home = props => {
                         feel better. When it comes to your mental health, the right therapist makes all the difference.
                       </p>
                     </div>
-                    <a href="#" type="button" className="btn-primary green-btn login-modal">
+                    <a href="/auth/login/patient" type="button" className="btn-primary green-btn login-modal">
                       Get matched now
                     </a>
                   </div>

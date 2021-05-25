@@ -1,4 +1,4 @@
-export const API_ENDPOINT = "https://ruby-on-rails-api-2.herokuapp.com";
+export const API_ENDPOINT = "https://ruby-on-rails-api-123.herokuapp.com";
 
 export const IMAGE_ENDPOINT = API_ENDPOINT;
 

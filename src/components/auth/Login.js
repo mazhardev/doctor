@@ -39,7 +39,7 @@ class Login extends Component {
     };
 
     axios
-      .post(`${API_ENDPOINT}/login`, { user }, { withCredentials: true }, { headers: { "Access-Control-Allow-Origin": "*" } })
+      .post(`${API_ENDPOINT}/login`, { user }, { withCredentials: true })
       .then((response) => {
         if (response.data.logged_in) {
           response.data.user["doctor"] = {};
@@ -143,8 +143,7 @@ class Login extends Component {
               <div>
                 <h2>Sign up</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  
                 </p>
                 <Link className="btn btn-primary btn-block" to="/auth/register/patient">
                   As Patient
